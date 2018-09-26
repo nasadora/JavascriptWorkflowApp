@@ -7,11 +7,11 @@ alert("ko " + JSON.stringify(result));
 }
 
 var my_pattern = {};
-my_pattern.routed_people = "oldmailaddress.com";
+my_pattern.routed_people = "oldmailaddress@anything.com";
 
 
 var my_object = {};
 
-my_object.routed_people = "newmailaddress@lafarge.com";
+my_object.routed_people = "newmailaddress@anything.com";
 
 col_approvalmatrix.updateMultiCallback(my_pattern,{$set:my_object},update_ok,update_ko);

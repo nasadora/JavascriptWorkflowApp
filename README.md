@@ -1,2 +1,2 @@
 # updateMail.js
-Javascript to update user email using JSON
+Javascript to update user email in collection(MongoDB) using JSON

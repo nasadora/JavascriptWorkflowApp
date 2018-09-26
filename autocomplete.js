@@ -1,3 +1,5 @@
+/* This is autocomplete widget/ select list javascript. Easy for user to search collection from select list by enter min 2 keyword */
+
 /* Function if List on collection fails */  
 function list_ko(result) {  
     alert("Error :" + JSON.stringify(result));  
